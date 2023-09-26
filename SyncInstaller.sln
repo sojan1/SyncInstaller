@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncInstaller", "SyncInstaller.csproj", "{5007E34E-B3EF-464F-A5C5-379E851B7ACF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.Core", "..\Projects\Dotmim.Sync.Core\Dotmim.Sync.Core.csproj", "{266C5844-84E8-404B-9BCC-FF1535B8A95F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.Sqlite", "..\Projects\Dotmim.Sync.Sqlite\Dotmim.Sync.Sqlite.csproj", "{095A18A1-2C29-439A-8A06-E929206A90F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.SqlServer", "..\Projects\Dotmim.Sync.SqlServer\Dotmim.Sync.SqlServer.csproj", "{13693EB3-D622-4894-A95E-DD69D88AC8E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.SqlServer.ChangeTracking", "..\Projects\Dotmim.Sync.SqlServer.ChangeTracking\Dotmim.Sync.SqlServer.ChangeTracking.csproj", "{2B790AAC-5C2A-42A1-BA07-6BA4F27C8DE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5007E34E-B3EF-464F-A5C5-379E851B7ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5007E34E-B3EF-464F-A5C5-379E851B7ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5007E34E-B3EF-464F-A5C5-379E851B7ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5007E34E-B3EF-464F-A5C5-379E851B7ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266C5844-84E8-404B-9BCC-FF1535B8A95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266C5844-84E8-404B-9BCC-FF1535B8A95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266C5844-84E8-404B-9BCC-FF1535B8A95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266C5844-84E8-404B-9BCC-FF1535B8A95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095A18A1-2C29-439A-8A06-E929206A90F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095A18A1-2C29-439A-8A06-E929206A90F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095A18A1-2C29-439A-8A06-E929206A90F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095A18A1-2C29-439A-8A06-E929206A90F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13693EB3-D622-4894-A95E-DD69D88AC8E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13693EB3-D622-4894-A95E-DD69D88AC8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13693EB3-D622-4894-A95E-DD69D88AC8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13693EB3-D622-4894-A95E-DD69D88AC8E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B790AAC-5C2A-42A1-BA07-6BA4F27C8DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B790AAC-5C2A-42A1-BA07-6BA4F27C8DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B790AAC-5C2A-42A1-BA07-6BA4F27C8DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B790AAC-5C2A-42A1-BA07-6BA4F27C8DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55E53C6A-DF26-47B7-87A9-DFEB63473718}
+	EndGlobalSection
+EndGlobal
